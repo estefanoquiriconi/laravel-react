@@ -1,6 +1,6 @@
 import { Navigate, createBrowserRouter } from 'react-router-dom'
 import { Login } from './views/Login';
-import { Singup } from './views/Singup';
+import { Signup } from './views/Signup';
 import { Users } from './views/Users';
 import { NotFound } from './views/NotFound';
 import { DefaultLayaout } from './components/DefaultLayaout';
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/signup',
-        element: <Singup />
+        element: <Signup />
       },
     ]
   },
